@@ -1,0 +1,25 @@
+{
+  "name": "uptimemon",
+  "version": "1.0.0",
+  "description": "Simple uptime monitor with CLI and web dashboard. Zero dependencies.",
+  "main": "dist/index.js",
+  "bin": {
+    "uptimemon": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "uptime",
+    "monitor",
+    "cli",
+    "dashboard"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
